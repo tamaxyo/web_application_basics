@@ -20,12 +20,13 @@ body {
 
 #main_menu {
 	background-color: #339900;
-	color: #FFFFFF;
-	padding: 5px 2px;
 }
 
-#languages {
-	margin: 0px;
+.menu_button {
+	background-color: #339900;
+	color: #FFFFFF;
+	border: 1px solid #006600;
+	width: 100%;
 }
 
 #main {
