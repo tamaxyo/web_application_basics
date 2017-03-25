@@ -3,6 +3,8 @@
 	<head>
 		<meta charset="UTF-8" />
 		<title>Web Application Basics</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script type="text/javascript" src="./js/tab.js"></script>
 		<link rel="stylesheet" type="text/css" media="all" href="./css/main.css" />
 	</head>
 	<body>
@@ -13,7 +15,7 @@
 
 			<div id="menu">
 				<nav id="main_menu">
-					<button class="menu_button" id="button_ruby">Ruby</button>
+					<button class="menu_button selected_menu" id="button_ruby">Ruby</button>
 					<button class="menu_button" id="button_java">Java</button>
 					<button class="menu_button" id="button_csharp">C#</button>
 					<button class="menu_button" id="button_oc">Objective-C</button>
@@ -39,7 +41,7 @@
 							</p>
 						</article>
 					</section>
-					<section id="java_content" class="main_content">
+					<section id="java_content" class="main_content hidden_content">
 						<header id="java_header" class="main_header">
 							<h2 class="main_header_string">What is Java?</h2>
 						</header>
@@ -55,7 +57,7 @@
 							</p>
 						</article>
 					</section>
-					<section id="csharp_content" class="main_content">
+					<section id="csharp_content" class="main_content hidden_content">
 						<header id="csharp_header" class="main_header">
 							<h2 class="main_header_string">What is C#?</h2>
 						</header>
@@ -71,7 +73,7 @@
 							</p>
 						</article>
 					</section>
-					<section id="oc_content" class="main_content">
+					<section id="oc_content" class="main_content hidden_content">
 						<header id="oc_header" class="main_header">
 							<h2 class="main_header_string">What is Objective-C?</h2>
 						</header>
@@ -87,7 +89,7 @@
 							</p>
 						</article>
 					</section>
-					<section id="js_content" class="main_content">
+					<section id="js_content" class="main_content hidden_content">
 						<header id="js_header" class="main_header">
 							<h2 class="main_header_string">What is JavaScript?</h2>
 						</header>

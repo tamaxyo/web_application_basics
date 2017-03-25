@@ -29,6 +29,10 @@ body {
 	width: 100%;
 }
 
+.selected_menu {
+	background-color: #33CC00;
+}
+
 #main {
 	width: 80%;
 }
@@ -36,6 +40,10 @@ body {
 .main_content {
 	background-color: #FFFFFF;
 	padding: 5px;
+}
+
+.hidden_content {
+	display: none;
 }
 
 .main_header {
