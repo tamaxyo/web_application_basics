@@ -1,0 +1,46 @@
+body {
+	background-color: #99CC33;
+}
+
+#wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+#page_header {
+	color:  #006600;
+	width: 100%;
+}
+
+#menu {
+	width: calc(20% - 10px);
+}
+
+#main_menu {
+	background-color: #339900;
+	color: #FFFFFF;
+	padding: 5px 2px;
+}
+
+#languages {
+	margin: 0px;
+}
+
+#main {
+	width: 80%;
+}
+
+#main_content {
+	background-color: #FFFFFF;
+	padding: 5px;
+}
+
+#main_header {
+	border: 2px solid #FFCCCC;
+}
+
+h2 {
+	margin: 2px 10px;
+}
